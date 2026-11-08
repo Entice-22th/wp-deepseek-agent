@@ -24,3 +24,4 @@ WordPress >= 7.0(必须，因为使用了原生 AI Client API)
 配置说明
 默认使用系统设定的提示词。如需修改，请在 `backend-snippet.php` 中找到 `$system_prompt` 变量进行自定义修改。
 
+如果这个项目帮到了你，欢迎点个 Star！谢谢啦
