@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek AI 聊天助手演示</title>
+    <!-- 引入独立的 CSS 文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 聊天界面容器 -->
+    <div id="ai-chat-container">
+        <div id="chat-messages">
+            <!-- 初始打招呼语 -->
+            <div class="message ai-message">你好！我是 DeepSeek AI 助手，有什么可以帮你的？</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="user-input" placeholder="输入你想问的问题..." autocomplete="off">
+            <button id="send-btn">发送</button>
+        </div>
+    </div>
+
+    <!-- 引入独立的 JS 文件 -->
+    <script src="app.js"></script>
+</body>
+</html>
